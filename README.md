@@ -8,35 +8,36 @@ como usar:
 
 
 Para encontrar o usuário com o maior tamanho:
-
+```
 python3 max_min_size.py input
-
+```
 
 Para encontrar o usuário com o menor tamanho:
-
+```
 python3 max_min_size.py input -min
-
+```
 
 2. Ordenar os usuários por nome de e-mail.
 
 
 Para ordenar os usuários em ordem alfabética crescente:
-
+```
 python3 order_by_username.py input | head -n 3
-
+```
 
 Para ordenar os usuários em ordem decrescente:
-
+```
 python3 order_by_username.py input -desc | head -n 3
+```
 
 
 3. Identificar os usuários que estão em uma faixa específica de mensagens.
 
 
 Para encontrar usuários com uma quantidade de mensagens entre 50 e 200:
-
+```
 python3 between_msgs.py input 50 200
-
+```
 
 
 ## Requisitos
